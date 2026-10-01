@@ -1,0 +1,40 @@
+# Executables and Compiled Binaries
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries and coverage reports
+*.test
+*.out
+*.coverprofile
+coverage.txt
+profile.cov
+
+# Go Workspace files (local configuration)
+go.work
+go.work.sum
+
+# Dependency directories
+# Un-comment the line below if you explicitly choose to use vendoring
+# vendor/
+
+# Local Environment Secrets
+.env
+.env.local
+*.pem
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Operating System Files
+.DS_Store
+Thumbs.db
